@@ -1,41 +1,42 @@
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*En este caso defino las medidas del main (el contenedor principal de las demas cajas)*/
 main{
     margin: 0 auto;
     width: 100%;
     max-width: 1400px;
 }
-
+/*En este caso defino las dimenciones  del header (Encabezado)*/
 header{
     height: 80px;
     padding: 10px;
     margin: 0 auto ;
 }
 
-
+/*En este caso defino el tamaño del logo*/
 .logo img{
     margin-top: 15px;
     height: 40px;
     display: inline-block;
 }
-
+/*En este caso cambio el tipo de letra y su grosor*/
 .nombre{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     display: inline-block;
 }
-
+/*En este caso a los elementos nav dentro del header aplico un padding a la izquierda y alineo los itemes al centro*/
 header nav{
     align-items: center;
     padding-left: 700px;
     display: inline;
 }
-
+/*En este caso a los elementos a dentro del nav aplico un padding, elimino la decoracion del texto y cambio el tipo el color y grosor de la letra*/
 nav a{
     padding-right: 10px;
     text-decoration: none;
@@ -44,7 +45,7 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-
+/*En este caso utilizo la id para aplicar estilo a un (a) en especifico*/
 #boton{
     color: white;
     background-color: lightblue;
@@ -52,39 +53,40 @@ nav a{
     border-radius: 10px;
     display: inline-block;
 }
-
+/*En este caso creo una caja alineada a la derecha de la pagina*/
 #promo{
     margin-top: 110px;
     float: right;
     height: 80%;
     text-align: center;
 }
-
+/*En este caso aplico los parametros de la imagen contenida en (promo)*/
 #promo img{
     margin: 0 auto;
     padding: 15px;
     height: 450px;
     object-fit: cover;
 }
-
+/*En este caso aplico la sdimenciones de la segunda caja*/
 #texto{
     margin-top: 110px;
     width: 50%;
     height: 80%;
 }
-
+/*En este caso modifico los parametros de un h1 almacenado en la caja (texto)*/
 #texto h1{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-
+/*En este caso modifico los parametros de un p almacenados en la caja (texto)*/
 #texto p{
     color: rgba(1, 1, 1, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 600;
 }
+/*En estecaso aplico estilo a un texto*/
 .nuevo_boton{
     margin-top: 5px;
     color: white;
@@ -93,7 +95,7 @@ nav a{
     border-radius: 10px;
     display: inline-block;
 }
-
+/*En este caso aplico un padding del 20% a una clase*/
 .centrado{
     padding-top:20%;
 }
